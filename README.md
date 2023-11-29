@@ -60,7 +60,19 @@ Open VSCode and run this command to create a new C# console application with .NE
 dotnet new console --framework net8.0
 ```
 
-## 2. Load the libraries
+## 2. Login in Azure with VSCode Terminal window
+
+In the VSCode Terminal window run the command
+
+```
+az login
+```
+
+![image](https://github.com/luiscoco/Azure_SDK_Sample0_DefaultAzureCredential/assets/32194879/051cddda-793f-45e2-a3f0-8f00aba4c7fd)
+
+![image](https://github.com/luiscoco/Azure_SDK_Sample0_DefaultAzureCredential/assets/32194879/c40b9788-35f4-4477-86d5-7f237f264d45)
+
+## 3. Load the libraries
 
 In your internet browser navigate to the Nuget package web page: https://www.nuget.org/packages, and look for the libraries.
 
@@ -81,7 +93,7 @@ And confirm in the **csproj** file the libraries are included:
 
 ![image](https://github.com/luiscoco/Azure_SDK_Sample0_DefaultAzureCredential/assets/32194879/39b2da74-4d7d-416d-9c30-7adcccf44808)
 
-## 3. Input the application source code
+## 4. Input the application source code
 
 ```csharp
 using System;
@@ -112,7 +124,7 @@ await blobClient.UploadAsync("blob.txt");
 Console.WriteLine("File uploaded to Blob conatiner successfully!");
 ```
 
-## 4. Build and run the application
+## 5. Build and run the application
 
 In the Terminal Window in VSCode type the command:
 
