@@ -18,6 +18,11 @@ Go to the new Storage account:
 
 ![image](https://github.com/luiscoco/Azure_SDK_Sample0_DefaultAzureCredential/assets/32194879/1e889101-164a-40e3-8207-b2b9f8f9d15c)
 
+Now we have to grant permission to the storage account as ""
+
+In the Storage account left menu we select "Access Control (IAM)" and then we press the button "Add role assignment"
+
+![image](https://github.com/luiscoco/Azure_SDK_Sample0_DefaultAzureCredential/assets/32194879/9a6c0bba-961c-4f1b-bd61-f47ac0a888e7)
 
 
 ## 1. Create a new console C# application in VSCode
