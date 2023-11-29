@@ -14,6 +14,10 @@ We input the new Storage account data
 
 We press the "Review" button and then the "Create" button
 
+Go to the new Storage account:
+
+![image](https://github.com/luiscoco/Azure_SDK_Sample0_DefaultAzureCredential/assets/32194879/1e889101-164a-40e3-8207-b2b9f8f9d15c)
+
 
 
 ## 1. Create a new console C# application in VSCode
