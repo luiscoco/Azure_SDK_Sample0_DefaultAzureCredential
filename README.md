@@ -40,10 +40,10 @@ var containerClient = new BlobContainerClient(uri, cred);
 // (OPTIONAL) Create the blob container if it doesn't exist
 await containerClient.CreateIfNotExistsAsync();
 
-// Create a BlobClient
+// Create a BlobClient and set the blob name
 var blobClient = containerClient.GetBlobClient("blob.txt");
 
-// Upload the blob
+// Upload the file into the blob
 await blobClient.UploadAsync("blob.txt");
 
 Console.WriteLine("File uploaded to Blob conatiner successfully!");
