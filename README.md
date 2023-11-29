@@ -48,7 +48,9 @@ See the new Blob container:
 
 ![image](https://github.com/luiscoco/Azure_SDK_Sample0_DefaultAzureCredential/assets/32194879/fbe1d46a-d624-45b6-94b9-76b165980314)
 
+We also have to place the "blob.txt" file in the application folder to upload it:
 
+![image](https://github.com/luiscoco/Azure_SDK_Sample0_DefaultAzureCredential/assets/32194879/a65becfa-7d7d-4ff6-9c26-5e5a08a9d381)
 
 ## 1. Create a new console C# application in VSCode
 
