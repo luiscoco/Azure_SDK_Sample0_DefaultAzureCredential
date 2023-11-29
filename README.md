@@ -62,9 +62,24 @@ dotnet new console --framework net8.0
 
 ## 2. Load the libraries
 
+In your internet browser navigate to the Nuget package web page: https://www.nuget.org/packages, and look for the libraries.
+
 Run these commands to load the "Azure.Identity" and the "Azure.Storage.Blobs" libraries:
 
+```
+dotnet add package Azure.Identity --version 1.10.4
+dotnet add package Azure.Storage.Blobs --version 12.19.1
+```
 
+After then run the command:
+
+```
+dotnet restore
+```
+
+And confirm in the **csproj** file the libraries are included:
+
+![image](https://github.com/luiscoco/Azure_SDK_Sample0_DefaultAzureCredential/assets/32194879/39b2da74-4d7d-416d-9c30-7adcccf44808)
 
 ## 3. Input the application source code
 
