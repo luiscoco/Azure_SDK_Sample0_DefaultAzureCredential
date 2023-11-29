@@ -48,3 +48,13 @@ await blobClient.UploadAsync("blob.txt");
 
 Console.WriteLine("File uploaded to Blob conatiner successfully!");
 ```
+
+## 4. Build and run the application
+
+In the Terminal Window in VSCode type the command:
+
+```
+dotnet run
+```
+
+
