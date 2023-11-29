@@ -32,6 +32,9 @@ Then we select **user**
 
 ![image](https://github.com/luiscoco/Azure_SDK_Sample0_DefaultAzureCredential/assets/32194879/63698c3c-e761-4489-8b84-b7fb204bbbf2)
 
+Finally, we press the button "**Review + assign**"
+
+![image](https://github.com/luiscoco/Azure_SDK_Sample0_DefaultAzureCredential/assets/32194879/3076e9e3-eb19-4076-89e4-ef09eaf9f721)
 
 ## 1. Create a new console C# application in VSCode
 
