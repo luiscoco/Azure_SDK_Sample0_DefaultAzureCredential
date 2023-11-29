@@ -1,4 +1,4 @@
-# Azure SDK Sample0 DefaultAzureCredential
+# How to use DefaultAzureCredential() for uploading a file to an Azure Blob container
 
 ## 0. Prerequisites
 
