@@ -36,6 +36,20 @@ Finally, we press the button "**Review + assign**"
 
 ![image](https://github.com/luiscoco/Azure_SDK_Sample0_DefaultAzureCredential/assets/32194879/3076e9e3-eb19-4076-89e4-ef09eaf9f721)
 
+Now we have to create the Blob container:
+
+![image](https://github.com/luiscoco/Azure_SDK_Sample0_DefaultAzureCredential/assets/32194879/fda24b86-991d-4306-8fb0-21798df748e3)
+
+Then we set the Blob container name:
+
+![image](https://github.com/luiscoco/Azure_SDK_Sample0_DefaultAzureCredential/assets/32194879/3478ff54-0d74-4998-bd93-ff5eed56f0ef)
+
+See the new Blob container:
+
+![image](https://github.com/luiscoco/Azure_SDK_Sample0_DefaultAzureCredential/assets/32194879/fbe1d46a-d624-45b6-94b9-76b165980314)
+
+
+
 ## 1. Create a new console C# application in VSCode
 
 Open VSCode and run this command to create a new C# console application with .NET 8:
