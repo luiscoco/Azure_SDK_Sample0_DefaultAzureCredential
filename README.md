@@ -4,6 +4,18 @@
 
 Login in Azure Portal and create a new Azure Storage account and inside create a new Blob container.
 
+First we create the Azure Storage account
+
+![image](https://github.com/luiscoco/Azure_SDK_Sample0_DefaultAzureCredential/assets/32194879/aecfadad-ed4e-488c-acd5-6b2f3e73c067)
+
+We input the new Storage account data
+
+![image](https://github.com/luiscoco/Azure_SDK_Sample0_DefaultAzureCredential/assets/32194879/fb0c169f-cc4b-4036-a404-31d35e4c0aad)
+
+We press the "Review" button and then the "Create" button
+
+
+
 ## 1. Create a new console C# application in VSCode
 
 Open VSCode and run this command to create a new C# console application with .NET 8:
