@@ -132,4 +132,35 @@ In the Terminal Window in VSCode type the command:
 dotnet run
 ```
 
+## 6. Another source code sample
+
+```csharp
+using System;
+using System.Threading.Tasks;
+
+using Azure.Identity;
+using Azure.Storage.Blobs;
+
+//Prerequisite: create an Azure Storage Account and inside create a new Azure Blob container
+string storageAccountName = "mynewstorageaccount1974";
+string blobContainerName = "newblob";
+
+var uri = new Uri("https://" + storageAccountName + ".blob.core.windows.net/" + blobContainerName).ToString();
+
+var blobServiceClient = new BlobServiceClient(new Uri(uri), new DefaultAzureCredential());
+
+// Replace "your_container_name" with the name of your container
+var containerClient = blobServiceClient.GetBlobContainerClient(blobContainerName);
+
+// Replace "your_blob_name" with the name you want to give to the blob
+var blobClient = containerClient.GetBlobClient("blob.txt");
+
+// Replace "path_to_your_local_file" with the path to the file you want to upload
+using (var fileStream = File.OpenRead("C:\\Azure SDK for .NET\\sampleDefaultAzureCredential\\blob.txt"))
+{
+    blobClient.Upload(fileStream, true);
+}
+
+Console.WriteLine("File uploaded successfully!");
+```
 
